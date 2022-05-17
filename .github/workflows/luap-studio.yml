@@ -1,0 +1,11 @@
+name: Luap Studio CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    uses: Luap-Studio/workflows/.github/workflows/base.yml@main
